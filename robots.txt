@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drumkolo.vercel.app/sitemap.xml

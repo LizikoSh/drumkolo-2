@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карта барабанних традицій світу — ДрамКоло</title>
+  <meta name="description" content="Інтерактивна карта музичних традицій: Західна Африка, Близький Схід, Середземномор’я, Латинська Америка та Південна Азія.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1f1b18">
+  <link rel="canonical" href="https://drumkolo.vercel.app/traditions.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:site_name" content="ДрамКоло">
+  <meta property="og:title" content="Карта барабанних традицій світу — ДрамКоло">
+  <meta property="og:description" content="Подорожуйте за ритмом і знайомтеся з інструментами різних регіонів.">
+  <meta property="og:url" content="https://drumkolo.vercel.app/traditions.html">
+  <meta property="og:image" content="https://drumkolo.vercel.app/pic/drumkolo-og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Карта барабанних традицій — ДрамКоло">
+  <meta name="twitter:description" content="Ритми, інструменти й способи гри різних регіонів світу.">
+  <meta name="twitter:image" content="https://drumkolo.vercel.app/pic/drumkolo-og.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Головна навігація">
+      <a class="logo" href="index.html" aria-label="ДрамКоло — головна">Драм<span>Коло</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+        <span></span><span></span><span></span><span class="sr-only">Відкрити меню</span>
+      </button>
+      <ul class="nav-links" id="main-menu">
+        <li><a href="instruments.html">Інструменти</a></li>
+        <li><a href="rhythms.html">Ритми</a></li>
+        <li><a href="lessons.html">Уроки</a></li>
+        <li><a class="is-current" aria-current="page" href="traditions.html">Традиції</a></li>
+        <li><a href="community.html">Спільнота</a></li>
+      </ul>
+      <a href="community.html#join" class="nav-cta">Приєднатись</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero--traditions">
+      <div class="wrap">
+        <nav class="breadcrumbs" aria-label="Хлібні крихти"><a href="index.html">Головна</a><span>/</span><span>Традиції</span></nav>
+        <span class="section-kicker">Музична географія</span>
+        <h1>Подорожуйте<br><em>за ритмом.</em></h1>
+        <p>Оберіть регіон, щоб побачити інструменти, характер звучання та напрям для подальшого знайомства.</p>
+      </div>
+    </section>
+
+    <section class="traditions-section traditions-section--page">
+      <div class="wrap">
+        <div class="traditions-layout">
+          <div class="map-points" role="group" aria-label="Музичні регіони">
+            <button type="button" class="map-point is-active" data-region="west-africa"><span>Західна Африка</span><small>джембе · дунун</small></button>
+            <button type="button" class="map-point" data-region="middle-east"><span>Близький Схід</span><small>дарбука · даф</small></button>
+            <button type="button" class="map-point" data-region="mediterranean"><span>Середземномор’я</span><small>бендір · тамбурело</small></button>
+            <button type="button" class="map-point" data-region="latin"><span>Латинська Америка</span><small>конґи · кахон</small></button>
+            <button type="button" class="map-point" data-region="south-asia"><span>Південна Азія</span><small>табла · мріданґам</small></button>
+          </div>
+          <article class="region-card" id="region-card" aria-live="polite">
+            <span class="region-label">Обраний регіон</span>
+            <h2>Західна Африка</h2>
+            <p>Поліритмія тут народжується з кількох взаємопов’язаних партій. Джембе часто веде діалог, а басові дунуни тримають опору.</p>
+            <div class="region-meta"><span>Слухати: ансамблеву гру</span><span>Спробувати: питання — відповідь</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section wrap">
+      <div class="section-heading">
+        <div><span class="section-kicker">Як досліджувати відповідально</span><h2>Традиція — це більше, ніж патерн</h2></div>
+        <p>Одна й та сама схема може мати різні функції, назви та спосіб виконання. Контекст допомагає не зводити живу культуру до набору ударів.</p>
+      </div>
+      <div class="context-grid">
+        <article><span>01</span><h3>Шукайте першоджерела</h3><p>Слухайте виконавців і викладачів, які представляють традицію зсередини.</p></article>
+        <article><span>02</span><h3>Зважайте на функцію</h3><p>Ритм може належати танцю, обряду, святу або конкретній соціальній події.</p></article>
+        <article><span>03</span><h3>Називайте походження</h3><p>Згадуйте регіон, інструмент і школу, якщо вони відомі.</p></article>
+      </div>
+    </section>
+
+    <section class="next-page wrap">
+      <span class="section-kicker">Від дослідження — до зустрічі</span>
+      <h2>Ритм живе між людьми</h2>
+      <p>Дізнайтеся про формати ДрамКола: камерні кола, концерти, навчання та співпрацю з танцівниками.</p>
+      <a href="community.html" class="btn-primary">До спільноти</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-row">
+      <a class="logo" href="index.html">Драм<span>Коло</span></a>
+      <ul class="foot-links"><li><a href="instruments.html">Інструменти</a></li><li><a href="rhythms.html">Конструктор</a></li><li><a href="community.html">Спільнота</a></li><li><a href="community.html#join">Контакти</a></li></ul>
+      <div class="join-note">© 2026 Спільнота «ДрамКоло»</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

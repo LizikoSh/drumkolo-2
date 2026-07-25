@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Конструктор ритмів та аудіоприклади — ДрамКоло</title>
+  <meta name="description" content="Інтерактивний конструктор барабанних ритмів: вмикайте кроки, змінюйте темп і слухайте навчальні патерни прямо в браузері.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1f1b18">
+  <link rel="canonical" href="https://drumkolo.vercel.app/rhythms.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:site_name" content="ДрамКоло">
+  <meta property="og:title" content="Конструктор ритмів — ДрамКоло">
+  <meta property="og:description" content="Складіть власний барабанний ритм на вісім кроків і послухайте готові патерни.">
+  <meta property="og:url" content="https://drumkolo.vercel.app/rhythms.html">
+  <meta property="og:image" content="https://drumkolo.vercel.app/pic/drumkolo-og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Конструктор ритмів — ДрамКоло">
+  <meta name="twitter:description" content="Інтерактивні схеми й аудіоприклади барабанних ритмів.">
+  <meta name="twitter:image" content="https://drumkolo.vercel.app/pic/drumkolo-og.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Головна навігація">
+      <a class="logo" href="index.html" aria-label="ДрамКоло — головна">Драм<span>Коло</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+        <span></span><span></span><span></span><span class="sr-only">Відкрити меню</span>
+      </button>
+      <ul class="nav-links" id="main-menu">
+        <li><a href="instruments.html">Інструменти</a></li>
+        <li><a class="is-current" aria-current="page" href="rhythms.html">Ритми</a></li>
+        <li><a href="lessons.html">Уроки</a></li>
+        <li><a href="traditions.html">Традиції</a></li>
+        <li><a href="community.html">Спільнота</a></li>
+      </ul>
+      <a href="community.html#join" class="nav-cta">Приєднатись</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero page-hero--rhythm">
+      <div class="wrap">
+        <nav class="breadcrumbs" aria-label="Хлібні крихти"><a href="index.html">Головна</a><span>/</span><span>Ритми</span></nav>
+        <span class="section-kicker">Практична лабораторія</span>
+        <h1>Ритм можна<br><em>побачити й почути.</em></h1>
+        <p>Побудуйте простий рисунок із баса, тону, слепу та шейкера. Тут не потрібно знати нот — достатньо слухати повтор.</p>
+      </div>
+    </section>
+
+    <section class="lab-section wrap">
+      <div class="section-heading">
+        <div><span class="section-kicker">Інтерактивна ритмічна схема</span><h2>Складіть свій ритм</h2></div>
+        <p>Увімкніть клітинки, виберіть темп і натисніть «Грати». Активний крок рухається зліва направо.</p>
+      </div>
+      <div class="rhythm-lab">
+        <div class="lab-toolbar">
+          <button class="lab-play" id="play-rhythm" type="button"><span aria-hidden="true">▶</span> Грати</button>
+          <label class="tempo-control">Темп <strong id="tempo-value">96 BPM</strong><input id="tempo" type="range" min="60" max="150" value="96"></label>
+          <div class="preset-buttons" role="group" aria-label="Готові ритми">
+            <button type="button" data-preset="circle">Коло</button>
+            <button type="button" data-preset="dance">Танець</button>
+            <button type="button" data-preset="clear">Очистити</button>
+          </div>
+        </div>
+        <div class="sequencer" id="sequencer" role="group" aria-label="Ритм-конструктор на 8 кроків"></div>
+        <p class="lab-hint">Порада: почніть із баса на 1 і 5, а потім додайте слеп між ними.</p>
+      </div>
+    </section>
+
+    <section class="audio-section">
+      <div class="wrap">
+        <div class="section-heading">
+          <div><span class="section-kicker">Аудіоприклади</span><h2>Почуйте різницю</h2></div>
+          <p>Короткі навчальні версії патернів допоможуть упізнати характер ритму до того, як ви візьмете інструмент.</p>
+        </div>
+        <div class="audio-grid">
+          <article class="audio-card">
+            <span class="audio-index">A / 01</span><h3>Пульс кола</h3><p>Рівний, просторий рисунок для першого спільного джему.</p>
+            <button class="audio-play" type="button" data-audio-pattern="circle">▶ Послухати</button>
+          </article>
+          <article class="audio-card">
+            <span class="audio-index">A / 02</span><h3>Танцювальний крок</h3><p>Щільніший патерн із чітким низьким акцентом.</p>
+            <button class="audio-play" type="button" data-audio-pattern="dance">▶ Послухати</button>
+          </article>
+          <article class="audio-card">
+            <span class="audio-index">A / 03</span><h3>Діалог</h3><p>Почергові високі й низькі удари як коротка музична фраза.</p>
+            <button class="audio-play" type="button" data-audio-pattern="dialogue">▶ Послухати</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="next-page wrap">
+      <span class="section-kicker">Закріпити руками</span>
+      <h2>Від схеми — до руху</h2>
+      <p>Короткі вправи допоможуть утримати пульс, розрізнити базові удари й не випадати зі спільної гри.</p>
+      <a href="lessons.html" class="btn-primary">Перейти до уроків</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot-row">
+      <a class="logo" href="index.html">Драм<span>Коло</span></a>
+      <ul class="foot-links"><li><a href="instruments.html">Інструменти</a></li><li><a href="rhythms.html">Конструктор</a></li><li><a href="community.html">Спільнота</a></li><li><a href="community.html#join">Контакти</a></li></ul>
+      <div class="join-note">© 2026 Спільнота «ДрамКоло»</div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
