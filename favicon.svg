@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-  <title id="title">ДрамКоло</title>
-  <rect width="64" height="64" rx="15" fill="#1f1b18"/>
-  <circle cx="32" cy="32" r="21" fill="#c45d36"/>
-  <circle cx="32" cy="32" r="14" fill="#f4e7d3"/>
-  <circle cx="32" cy="32" r="5" fill="#1f1b18"/>
-  <path d="M32 11v8M32 45v8M11 32h8M45 32h8" stroke="#f4e7d3" stroke-width="3" stroke-linecap="round"/>
-</svg>
