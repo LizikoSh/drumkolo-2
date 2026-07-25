@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ДрамКоло — етнічні барабани, ритми та спільнота</title>
+
+  <meta name="description" content="ДрамКоло — спільнота етно-перкусії та простір «Етноритм»: барабани світу, інтерактивні ритми, аудіоприклади, мініуроки, музичні традиції та події.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1f1b18">
+
+  <link rel="canonical" href="https://drumkolo.vercel.app/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:site_name" content="ДрамКоло">
+  <meta property="og:title" content="ДрамКоло — етнічні барабани, ритми та спільнота">
+  <meta property="og:description" content="Досліджуйте барабани світу, слухайте ритми, складайте власні схеми й знаходьте людей, з якими хочеться грати.">
+  <meta property="og:url" content="https://drumkolo.vercel.app/">
+  <meta property="og:image" content="https://drumkolo.vercel.app/pic/drumkolo-og.jpg">
+  <meta property="og:image:secure_url" content="https://drumkolo.vercel.app/pic/drumkolo-og.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Музиканти грають разом на етнічних барабанах у теплому вечірньому світлі">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ДрамКоло — етнічні барабани, ритми та спільнота">
+  <meta name="twitter:description" content="Барабани світу, інтерактивні ритми, аудіоприклади, мініуроки та спільнота етно-перкусії.">
+  <meta name="twitter:image" content="https://drumkolo.vercel.app/pic/drumkolo-og.jpg">
+  <meta name="twitter:image:alt" content="Музиканти грають разом на етнічних барабанах">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    window.va = window.va || function () {
+      (window.vaq = window.vaq || []).push(arguments);
+    };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav-wrap" aria-label="Головна навігація">
+    <a class="logo" href="#top" aria-label="ДрамКоло — на початок сторінки">Драм<span>Коло</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Відкрити меню</span>
+    </button>
+    <ul class="nav-links" id="main-menu">
+      <li><a href="#instruments">Інструменти</a></li>
+      <li><a href="#rhythm-lab">Ритми</a></li>
+      <li><a href="#lessons">Уроки</a></li>
+      <li><a href="#traditions">Традиції</a></li>
+      <li><a href="#community">Спільнота</a></li>
+    </ul>
+    <a href="#join" class="nav-cta">Приєднатись</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-content">
+      <div class="eyebrow">Спільнота етно-перкусії ДрамКола</div>
+      <h1>Ритм — це <em>мова</em>,<br>якою говорить тіло.</h1>
+      <p>Досліджуйте барабани світу, слухайте ритми, складайте власні схеми й знаходьте людей, з якими хочеться грати.</p>
+      <div class="hero-actions">
+        <a href="#explore" class="btn-primary">Досліджувати ритми</a>
+        <a href="#community" class="btn-secondary">Знайти своє коло</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="pulse" aria-hidden="true">
+    <span style="animation-delay:0s"></span><span style="animation-delay:.15s"></span><span style="animation-delay:.3s"></span><span style="animation-delay:.1s"></span><span style="animation-delay:.4s"></span><span style="animation-delay:.05s"></span><span style="animation-delay:.25s"></span><span style="animation-delay:.35s"></span><span style="animation-delay:.2s"></span><span style="animation-delay:.45s"></span><span style="animation-delay:.1s"></span><span style="animation-delay:0s"></span>
+  </div>
+
+  <section class="about" id="explore">
+    <span class="section-kicker">Новий напрям сайту</span>
+    <h2>Етноритм</h2>
+    <p>Навігатор у світі ударних традицій: від першого знайомства з інструментом до власного ритму й живої гри в колі.</p>
+  </section>
+
+  <section class="feature-nav wrap" aria-label="Розділи Етноритму">
+    <a class="feature-card" href="#instruments"><span>01</span><strong>Види барабанів</strong><small>Форма, звук і техніка</small></a>
+    <a class="feature-card" href="#origins"><span>02</span><strong>Походження</strong><small>Історії інструментів</small></a>
+    <a class="feature-card" href="#rhythm-lab"><span>03</span><strong>Ритмічні схеми</strong><small>Інтерактивний конструктор</small></a>
+    <a class="feature-card" href="#audio"><span>04</span><strong>Аудіоприклади</strong><small>Послухати базові патерни</small></a>
+    <a class="feature-card" href="#lessons"><span>05</span><strong>Мініуроки</strong><small>Коротко й без зайвої теорії</small></a>
+    <a class="feature-card" href="#traditions"><span>06</span><strong>Карта традицій</strong><small>Ритми різних регіонів</small></a>
+    <a class="feature-card" href="#people-events"><span>07</span><strong>Майстри й події</strong><small>Кого слухати й де грати</small></a>
+  </section>
+
+  <section class="content-section wrap" id="instruments">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">Каталог інструментів</span>
+        <h2>Барабани мають різні голоси</h2>
+      </div>
+      <p>Почніть із характеру звучання, а не з назви. Низький гул, сухий акцент чи дзвінкий слеп — кожен інструмент займає своє місце в ансамблі.</p>
+    </div>
+
+    <div class="instrument-grid">
+      <article class="instrument-card instrument-card--large">
+        <div class="instrument-number">01 / Західна Африка</div>
+        <h3>Джембе</h3>
+        <p>Келихоподібний барабан, на якому грають долонями. Три базові голоси — бас, тон і слеп — дозволяють зібрати повний ритм одним інструментом.</p>
+        <ul class="tag-list"><li>гучний</li><li>універсальний</li><li>для кола</li></ul>
+      </article>
+      <article class="instrument-card">
+        <div class="instrument-number">02 / Близький Схід</div>
+        <h3>Дарбука</h3>
+        <p>Компактний барабан із виразними низьким «дум» і високим «тек». Добре читається в танцювальній музиці.</p>
+        <ul class="tag-list"><li>дзвінкий</li><li>швидкий</li></ul>
+      </article>
+      <article class="instrument-card">
+        <div class="instrument-number">03 / Перу</div>
+        <h3>Кахон</h3>
+        <p>Дерев’яний короб із басом у центрі та гострими ударами біля краю. Зручно замінює компактну ударну установку.</p>
+        <ul class="tag-list"><li>мобільний</li><li>акустичний</li></ul>
+      </article>
+      <article class="instrument-card">
+        <div class="instrument-number">04 / Середземномор’я</div>
+        <h3>Рамковий барабан</h3>
+        <p>Тонка рама й велика мембрана дають довгий, об’ємний звук. До цієї родини належать бубни, даф і бендір.</p>
+        <ul class="tag-list"><li>м’який</li><li>медитативний</li></ul>
+      </article>
+      <article class="instrument-card">
+        <div class="instrument-number">05 / Карибський регіон</div>
+        <h3>Конґи</h3>
+        <p>Високі вузькі барабани, що зазвичай звучать парою або сетом. Їхній голос тримає пульс і веде діалог із танцем.</p>
+        <ul class="tag-list"><li>теплий</li><li>танцювальний</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="origins-section" id="origins">
+    <div class="wrap">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">Походження інструментів</span>
+          <h2>Не лише де, а й навіщо</h2>
+        </div>
+        <p>Барабан міг бути способом передати звістку, супроводити обряд, підтримати танець або об’єднати громаду.</p>
+      </div>
+      <div class="timeline">
+        <article><span>Спільнота</span><h3>Сигнал і розмова</h3><p>Ритм допомагав координувати людей на відстані й позначати важливі події.</p></article>
+        <article><span>Обряд</span><h3>Перехід і пам’ять</h3><p>Повторюваний пульс супроводжував календарні, родинні та духовні практики.</p></article>
+        <article><span>Рух</span><h3>Музика для танцю</h3><p>Ударник стежив за рухом танцівника, підкреслював акценти й змінював енергію.</p></article>
+        <article><span>Сьогодні</span><h3>Сцена і джем</h3><p>Традиційні голоси входять у ф’южн, електронну музику та відкриті барабанні кола.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="lab-section wrap" id="rhythm-lab">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">Інтерактивна ритмічна схема</span>
+        <h2>Складіть свій ритм</h2>
+      </div>
+      <p>Увімкніть клітинки, виберіть темп і натисніть «Грати». Активний крок рухається зліва направо.</p>
+    </div>
+
+    <div class="rhythm-lab">
+      <div class="lab-toolbar">
+        <button class="lab-play" id="play-rhythm" type="button"><span aria-hidden="true">▶</span> Грати</button>
+        <label class="tempo-control" for="tempo">Темп <strong id="tempo-value">96 BPM</strong>
+          <input id="tempo" type="range" min="60" max="150" value="96">
+        </label>
+        <div class="preset-buttons" aria-label="Готові ритми">
+          <button type="button" data-preset="circle">Коло</button>
+          <button type="button" data-preset="dance">Танець</button>
+          <button type="button" data-preset="clear">Очистити</button>
+        </div>
+      </div>
+      <div class="sequencer" id="sequencer" aria-label="Ритм-конструктор на 8 кроків"></div>
+      <p class="lab-hint">Порада: почніть із баса на 1 і 5, а потім додайте слеп між ними.</p>
+    </div>
+  </section>
+
+  <section class="audio-section" id="audio">
+    <div class="wrap">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">Аудіоприклади</span>
+          <h2>Почуйте різницю</h2>
+        </div>
+        <p>Короткі навчальні версії патернів допоможуть упізнати характер ритму до того, як ви візьмете інструмент.</p>
+      </div>
+      <div class="audio-grid">
+        <article class="audio-card">
+          <span class="audio-index">A / 01</span><h3>Пульс кола</h3><p>Рівний, просторий рисунок для першого спільного джему.</p>
+          <button class="audio-play" type="button" data-audio-pattern="circle">▶ Послухати</button>
+        </article>
+        <article class="audio-card">
+          <span class="audio-index">A / 02</span><h3>Танцювальний крок</h3><p>Щільніший патерн із чітким низьким акцентом.</p>
+          <button class="audio-play" type="button" data-audio-pattern="dance">▶ Послухати</button>
+        </article>
+        <article class="audio-card">
+          <span class="audio-index">A / 03</span><h3>Діалог</h3><p>Почергові високі й низькі удари як коротка музична фраза.</p>
+          <button class="audio-play" type="button" data-audio-pattern="dialogue">▶ Послухати</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section wrap" id="lessons">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">Невеликі уроки</span>
+        <h2>Одна навичка за раз</h2>
+      </div>
+      <p>Кожен урок розрахований на 5–10 хвилин і не вимагає знання нот. Можна тренуватися навіть на столі або подушці.</p>
+    </div>
+    <div class="lesson-list">
+      <details open>
+        <summary><span>Урок 01</span><strong>Як тримати пульс</strong><small>5 хв</small></summary>
+        <div class="lesson-content"><p>Поставте метроном на 70 BPM. Чергуйте праву й ліву руку, промовляючи «раз — і — два — і». Спочатку важлива рівність, не гучність.</p><div class="lesson-task">Практика: 4 цикли по 30 секунд із короткою паузою.</div></div>
+      </details>
+      <details>
+        <summary><span>Урок 02</span><strong>Бас, тон і слеп</strong><small>8 хв</small></summary>
+        <div class="lesson-content"><p>Бас береться ближче до центру мембрани, тон — біля краю зібраними пальцями, слеп — швидким розслабленим ударом. Не форсуйте силу.</p><div class="lesson-task">Практика: по 8 рівних ударів кожного типу.</div></div>
+      </details>
+      <details>
+        <summary><span>Урок 03</span><strong>Як не випадати з кола</strong><small>7 хв</small></summary>
+        <div class="lesson-content"><p>Слухайте загальний пульс і басову основу. Якщо загубилися, зупиніться, знайдіть першу долю та поверніться простим повторюваним ударом.</p><div class="lesson-task">Практика: зіграйте лише на кожну першу долю улюбленої композиції.</div></div>
+      </details>
+      <details>
+        <summary><span>Урок 04</span><strong>Перший власний патерн</strong><small>10 хв</small></summary>
+        <div class="lesson-content"><p>Оберіть вісім кроків. Поставте два баси, два високі удари й залиште паузи. Повторіть, а потім змініть лише один крок.</p><div class="lesson-task">Практика: складіть схему в конструкторі вище й зіграйте її руками.</div></div>
+      </details>
+    </div>
+  </section>
+
+  <section class="traditions-section" id="traditions">
+    <div class="wrap">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">Карта музичних традицій</span>
+          <h2>Подорожуйте за ритмом</h2>
+        </div>
+        <p>Оберіть регіон, щоб побачити інструменти, характер звучання та напрям для подальшого знайомства.</p>
+      </div>
+      <div class="traditions-layout">
+        <div class="map-points" role="group" aria-label="Музичні регіони">
+          <button type="button" class="map-point is-active" data-region="west-africa"><span>Західна Африка</span><small>джембе · дунун</small></button>
+          <button type="button" class="map-point" data-region="middle-east"><span>Близький Схід</span><small>дарбука · даф</small></button>
+          <button type="button" class="map-point" data-region="mediterranean"><span>Середземномор’я</span><small>бендір · тамбурело</small></button>
+          <button type="button" class="map-point" data-region="latin"><span>Латинська Америка</span><small>конґи · кахон</small></button>
+          <button type="button" class="map-point" data-region="south-asia"><span>Південна Азія</span><small>табла · мріданґам</small></button>
+        </div>
+        <article class="region-card" id="region-card" aria-live="polite">
+          <span class="region-label">Обраний регіон</span>
+          <h3>Західна Африка</h3>
+          <p>Поліритмія тут народжується з кількох взаємопов’язаних партій. Джембе часто веде діалог, а басові дунуни тримають опору.</p>
+          <div class="region-meta"><span>Слухати: ансамблеву гру</span><span>Спробувати: питання — відповідь</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section wrap" id="people-events">
+    <div class="section-heading">
+      <div>
+        <span class="section-kicker">Добірка майстрів та подій</span>
+        <h2>Від слухання — до зустрічі</h2>
+      </div>
+      <p>Точка входу для тих, хто хоче дивитися виступи, знаходити навчання й не пропускати живі ритмічні події.</p>
+    </div>
+    <div class="people-events-grid">
+      <article class="directory-card"><span>Дивитися</span><h3>Майстри традицій</h3><p>Відео й записи виконавців, які представляють джембе, дарбуку, рамкові барабани, кахон та інші школи.</p><a href="#join">Отримувати добірки →</a></article>
+      <article class="directory-card"><span>Навчатися</span><h3>Воркшопи</h3><p>Одноденні практикуми, відкриті уроки та курси для різного рівня — від першого удару до ансамблевої гри.</p><a href="#navchannia">Переглянути формати →</a></article>
+      <article class="directory-card"><span>Зустрічатися</span><h3>Кола й фестивалі</h3><p>Найближчі джеми, камерні кола, етнофестивалі та концерти за участі спільноти.</p><a href="#community">До подій спільноти →</a></article>
+    </div>
+  </section>
+
+  <section class="community-intro" id="community">
+    <div class="wrap">
+      <span class="section-kicker">Жива частина ДрамКола</span>
+      <h2>Знання стає музикою,<br>коли ним діляться.</h2>
+      <p>Тусівки, барабанні кола, концерти, співпраця з танцівниками та навчання — оберіть формат, у якому вам комфортно почати.</p>
+    </div>
+  </section>
+
+  <section class="themes">
+    <div class="theme-row" id="tusivky">
+      <div class="theme-head"><span class="theme-tag">Неформат</span><h2>Спільні тусівки</h2></div>
+      <div class="theme-body"><p>Барабан тут — привід зібратись, а не центр уваги. Вечори без програми: хтось приносить гітару, хтось — чай, хтось просто слухає.</p><p>Локації змінюються — від майстерні до берега річки. Стежте за анонсами спільноти.</p><div class="theme-meta"><div><strong>Раз на 2 тижні</strong>Періодичність</div><div><strong>Без інструменту — теж можна</strong>Умова участі</div><div><strong>Вхід вільний</strong>Вартість</div></div></div>
+      <figure class="theme-photo"><img src="pic/pic-drumkolo-01.webp" alt="Неформальна зустріч учасників ДрамКола" loading="lazy"></figure>
+    </div>
+    <div class="theme-row" id="kola">
+      <div class="theme-head"><span class="theme-tag">Камерний формат</span><h2>Барабанні кола</h2></div>
+      <div class="theme-body"><p>Закрите коло на 8–15 людей. Ведучий задає базовий патерн, а далі ритм будується пошарово — кожен додає свій голос, не заглушуючи інших.</p><p>Підходить і тим, хто бере барабан уперше: інструменти спільноти видаються на місці.</p><div class="theme-meta"><div><strong>1,5 години</strong>Тривалість</div><div><strong>8–15 людей</strong>Розмір кола</div><div><strong>Інструмент видається</strong>Що взяти</div></div></div>
+      <figure class="theme-photo"><img src="pic/pic-drumkolo-02.webp" alt="Камерне барабанне коло" loading="lazy"></figure>
+    </div>
+    <div class="theme-row" id="kontserty">
+      <div class="theme-head"><span class="theme-tag">На публіку</span><h2>Барабанні концерти</h2></div>
+      <div class="theme-body"><p>Кілька разів на сезон спільнота виходить на сцену — на міські фестивалі, благодійні події чи власні концерти.</p><p>Участь відкрита для тих, хто регулярно відвідує кола й готовий до репетицій.</p><div class="theme-meta"><div><strong>3–4 рази на рік</strong>Частота</div><div><strong>За запрошенням</strong>Участь</div><div><strong>Репетиції щотижня</strong>Підготовка</div></div></div>
+      <figure class="theme-photo"><img src="pic/pic-drumkolo-03.webp" alt="Барабанний концерт ДрамКола" loading="lazy"></figure>
+    </div>
+    <div class="theme-row" id="dance">
+      <div class="theme-head"><span class="theme-tag">Союз із рухом</span><h2>Акомпанемент для етнічних танців</h2></div>
+      <div class="theme-body"><p>Працюємо в парі з танцювальними студіями та фольклорними колективами — від трайбл-ф’южн до автентичних обрядових танців.</p><p>Якщо ваш колектив шукає живий супровід для виступу чи регулярних занять — обговоримо формат.</p><div class="theme-meta"><div><strong>Трайбл, афро, балканські</strong>Стилі</div><div><strong>Виступ або клас</strong>Формат</div><div><strong>За домовленістю</strong>Графік</div></div></div>
+      <figure class="theme-photo"><img src="pic/pic-drumkolo-04.webp" alt="Акомпанемент для етнічного танцю" loading="lazy"></figure>
+    </div>
+    <div class="theme-row" id="navchannia">
+      <div class="theme-head"><span class="theme-tag">З нуля і глибше</span><h2>Навчання гри на барабанах</h2></div>
+      <div class="theme-body"><p>Групові заняття для початківців: базова техніка джембе, читання простих ритмічних малюнків і координація рук.</p><p>Для тих, хто вже грає, — ансамблеві патерни та поліритмія. Перше заняття безкоштовне.</p><div class="theme-meta"><div><strong>8 занять</strong>Курс</div><div><strong>Початковий / середній</strong>Рівні</div><div><strong>Перше — безкоштовне</strong>Старт</div></div></div>
+      <figure class="theme-photo"><img src="pic/pic-drumkolo-05.webp" alt="Урок гри на етнічних барабанах" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section class="join" id="join">
+    <span class="section-kicker">Залишатися в ритмі</span>
+    <h2>Перший удар <em>завжди</em> невпевнений.<br>Наступні — вже ні.</h2>
+    <p>Залиште контакт — і отримуйте анонси найближчих кіл, нові мініуроки та тематичні добірки.</p>
+    <form class="join-form" id="join-form">
+      <label class="sr-only" for="name">Ваше ім’я</label>
+      <input id="name" type="text" placeholder="Ваше ім’я" required>
+      <label class="sr-only" for="contact">Email або телеграм</label>
+      <input id="contact" type="text" placeholder="Email або телеграм" required>
+      <button type="submit">Приєднатись</button>
+    </form>
+    <div class="join-note">Жодного спаму. Лише нові матеріали й анонси спільноти.</div>
+  </section>
+</main>
+
+<footer>
+  <div class="foot-row">
+    <a class="logo" href="#top">Драм<span>Коло</span></a>
+    <ul class="foot-links">
+      <li><a href="#instruments">Етноритм</a></li>
+      <li><a href="#rhythm-lab">Конструктор</a></li>
+      <li><a href="#community">Спільнота</a></li>
+      <li><a href="#join">Контакти</a></li>
+    </ul>
+    <div class="join-note">© 2026 Спільнота «ДрамКоло»</div>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const mainMenu = document.querySelector('#main-menu');
+
+  menuToggle.addEventListener('click', () => {
+    const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+    menuToggle.setAttribute('aria-expanded', String(!isOpen));
+    mainMenu.classList.toggle('is-open');
+  });
+
+  mainMenu.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mainMenu.classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  const tracks = [
+    { id: 'bass', label: 'Бас', sound: 'bass' },
+    { id: 'tone', label: 'Тон', sound: 'tone' },
+    { id: 'slap', label: 'Слеп', sound: 'slap' },
+    { id: 'shaker', label: 'Шейкер', sound: 'shaker' }
+  ];
+  const presets = {
+    circle: {
+      bass: [0, 4], tone: [2, 6], slap: [3, 7], shaker: [0, 2, 4, 6]
+    },
+    dance: {
+      bass: [0, 3, 4], tone: [2, 6], slap: [1, 5, 7], shaker: [0, 1, 2, 3, 4, 5, 6, 7]
+    },
+    dialogue: {
+      bass: [0, 4], tone: [2, 3, 6], slap: [1, 5, 7], shaker: [0, 2, 4, 6]
+    },
+    clear: { bass: [], tone: [], slap: [], shaker: [] }
+  };
+
+  const sequencer = document.querySelector('#sequencer');
+  tracks.forEach(track => {
+    const row = document.createElement('div');
+    row.className = 'seq-row';
+    row.innerHTML = `<div class="seq-label">${track.label}</div>`;
+    for (let step = 0; step < 8; step += 1) {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'seq-step';
+      button.dataset.track = track.id;
+      button.dataset.step = step;
+      button.setAttribute('aria-label', `${track.label}, крок ${step + 1}`);
+      button.setAttribute('aria-pressed', 'false');
+      button.addEventListener('click', () => {
+        const active = button.classList.toggle('is-active');
+        button.setAttribute('aria-pressed', String(active));
+        playSound(track.sound, .6);
+      });
+      row.append(button);
+    }
+    sequencer.append(row);
+  });
+
+  let audioContext;
+  let rhythmTimer;
+  let currentStep = 0;
+  let isPlaying = false;
+
+  function getAudioContext() {
+    if (!audioContext) audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    return audioContext;
+  }
+
+  function playSound(type, volume = .45, when = 0) {
+    const context = getAudioContext();
+    const start = context.currentTime + when;
+    const gain = context.createGain();
+    gain.connect(context.destination);
+
+    if (type === 'bass') {
+      const oscillator = context.createOscillator();
+      oscillator.type = 'sine';
+      oscillator.frequency.setValueAtTime(125, start);
+      oscillator.frequency.exponentialRampToValueAtTime(55, start + .16);
+      gain.gain.setValueAtTime(volume, start);
+      gain.gain.exponentialRampToValueAtTime(.001, start + .22);
+      oscillator.connect(gain);
+      oscillator.start(start);
+      oscillator.stop(start + .23);
+    } else if (type === 'tone') {
+      const oscillator = context.createOscillator();
+      oscillator.type = 'triangle';
+      oscillator.frequency.setValueAtTime(230, start);
+      gain.gain.setValueAtTime(volume * .55, start);
+      gain.gain.exponentialRampToValueAtTime(.001, start + .09);
+      oscillator.connect(gain);
+      oscillator.start(start);
+      oscillator.stop(start + .1);
+    } else {
+      const buffer = context.createBuffer(1, context.sampleRate * .08, context.sampleRate);
+      const data = buffer.getChannelData(0);
+      for (let i = 0; i < data.length; i += 1) data[i] = Math.random() * 2 - 1;
+      const source = context.createBufferSource();
+      const filter = context.createBiquadFilter();
+      filter.type = type === 'slap' ? 'bandpass' : 'highpass';
+      filter.frequency.value = type === 'slap' ? 1600 : 4200;
+      gain.gain.setValueAtTime(volume * (type === 'slap' ? .45 : .18), start);
+      gain.gain.exponentialRampToValueAtTime(.001, start + .07);
+      source.buffer = buffer;
+      source.connect(filter).connect(gain);
+      source.start(start);
+    }
+  }
+
+  function applyPreset(name) {
+    const preset = presets[name];
+    document.querySelectorAll('.seq-step').forEach(button => {
+      const active = preset[button.dataset.track].includes(Number(button.dataset.step));
+      button.classList.toggle('is-active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+  }
+
+  function tick() {
+    document.querySelectorAll('.seq-step').forEach(button => {
+      button.classList.toggle('is-current', Number(button.dataset.step) === currentStep);
+      if (Number(button.dataset.step) === currentStep && button.classList.contains('is-active')) {
+        const track = tracks.find(item => item.id === button.dataset.track);
+        playSound(track.sound);
+      }
+    });
+    currentStep = (currentStep + 1) % 8;
+  }
+
+  function startRhythm() {
+    const bpm = Number(document.querySelector('#tempo').value);
+    tick();
+    rhythmTimer = window.setInterval(tick, (60000 / bpm) / 2);
+    isPlaying = true;
+    document.querySelector('#play-rhythm').innerHTML = '<span aria-hidden="true">■</span> Стоп';
+  }
+
+  function stopRhythm() {
+    window.clearInterval(rhythmTimer);
+    isPlaying = false;
+    currentStep = 0;
+    document.querySelectorAll('.seq-step').forEach(button => button.classList.remove('is-current'));
+    document.querySelector('#play-rhythm').innerHTML = '<span aria-hidden="true">▶</span> Грати';
+  }
+
+  document.querySelector('#play-rhythm').addEventListener('click', () => isPlaying ? stopRhythm() : startRhythm());
+  document.querySelector('#tempo').addEventListener('input', event => {
+    document.querySelector('#tempo-value').textContent = `${event.target.value} BPM`;
+    if (isPlaying) {
+      stopRhythm();
+      startRhythm();
+    }
+  });
+  document.querySelectorAll('[data-preset]').forEach(button => {
+    button.addEventListener('click', () => applyPreset(button.dataset.preset));
+  });
+  applyPreset('circle');
+
+  let previewTimer;
+  document.querySelectorAll('.audio-play').forEach(button => {
+    button.addEventListener('click', () => {
+      window.clearInterval(previewTimer);
+      document.querySelectorAll('.audio-play').forEach(item => {
+        item.classList.remove('is-playing');
+        item.textContent = '▶ Послухати';
+      });
+      const pattern = presets[button.dataset.audioPattern];
+      let step = 0;
+      button.classList.add('is-playing');
+      button.textContent = '■ Звучить…';
+      const playPreviewStep = () => {
+        tracks.forEach(track => {
+          if (pattern[track.id].includes(step)) playSound(track.sound, .5);
+        });
+        step += 1;
+        if (step >= 8) {
+          window.clearInterval(previewTimer);
+          button.classList.remove('is-playing');
+          button.textContent = '▶ Послухати ще';
+        }
+      };
+      playPreviewStep();
+      previewTimer = window.setInterval(playPreviewStep, 260);
+    });
+  });
+
+  const regionData = {
+    'west-africa': {
+      title: 'Західна Африка',
+      text: 'Поліритмія тут народжується з кількох взаємопов’язаних партій. Джембе часто веде діалог, а басові дунуни тримають опору.',
+      listen: 'ансамблеву гру',
+      try: 'питання — відповідь'
+    },
+    'middle-east': {
+      title: 'Близький Схід',
+      text: 'Ритмічні цикли впізнаються за чергуванням низького «дум» і високого «тек». Вони тісно пов’язані з танцем і мелодією.',
+      listen: 'макам і перкусійний таксим',
+      try: 'дум — тек — пауза — тек'
+    },
+    mediterranean: {
+      title: 'Середземномор’я',
+      text: 'Рамкові барабани поєднують глибокий тон мембрани з дрібним дзвоном. Ритм може бути і танцювальним, і медитативним.',
+      listen: 'ансамблі рамкових барабанів',
+      try: 'удар, дріб і тиша'
+    },
+    latin: {
+      title: 'Латинська Америка',
+      text: 'Конґи й кахон утворюють пружну основу, де кожна партія має власний малюнок, але разом вони підсилюють рух.',
+      listen: 'афро-кубинську перкусію',
+      try: 'синкопований бас'
+    },
+    'south-asia': {
+      title: 'Південна Азія',
+      text: 'Ритм організований у цикли, а удари мають складову мову. Табла дозволяє буквально промовляти композицію ритмічними складами.',
+      listen: 'сольну гру на таблі',
+      try: 'повторювати ритм голосом'
+    }
+  };
+
+  document.querySelectorAll('.map-point').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('.map-point').forEach(item => item.classList.remove('is-active'));
+      button.classList.add('is-active');
+      const region = regionData[button.dataset.region];
+      document.querySelector('#region-card').innerHTML = `
+        <span class="region-label">Обраний регіон</span>
+        <h3>${region.title}</h3>
+        <p>${region.text}</p>
+        <div class="region-meta"><span>Слухати: ${region.listen}</span><span>Спробувати: ${region.try}</span></div>
+      `;
+    });
+  });
+
+  document.querySelector('#join-form').addEventListener('submit', event => {
+    event.preventDefault();
+    const button = event.currentTarget.querySelector('button');
+    button.textContent = 'Дякуємо, до зустрічі';
+    button.disabled = true;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "drumkolo",
+  "version": "1.0.0",
+  "description": "ДрамКоло - спільнота етно-барабанщиків",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required for static site'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": ["drumkolo", "percussion", "community"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
